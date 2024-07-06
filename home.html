@@ -1,1 +1,483 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jkc aiml internship portal 2023">
+    <meta name='description' content='jkc aiml internship portal 2023'>
+    <meta name="keywords" content="Jkcaiml, Jkc aiml, Jkc, jkc college, jkc internship 2023">
+    <meta name="author" content="Data Science Students 2023">
+      <title>JKC College Internship 2023</title><link rel="icon" href="https://www.pythonanywhere.com/user/jkcaiml/files/home/jkcaiml/mysite/jkc_logo.png" sizes="32x32" type="image/png">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+  <style>
+
+            * {
+
+            margin:  0;
+            padding: 0;
+
+            }
+
+             body {
+
+                width: 100%;
+                   }
+
+            .container {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 99%;
+                }
+
+                .box {
+                  width: 100%;
+                  max-width: 100%;
+                  background-color: #eee;
+                  border: 1px solid #333;
+                  border-radius: 10px;
+                  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                   font-family: "Trirong", serif;
+
+                }
+
+                .tablebox {
+                  width: 100%;
+                  max-width: 100%;
+                  background-color: aliceblue;
+                  border: 1px solid #333;
+                  border-radius: 10px;
+                  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                }
+
+                .box2 {
+                  width: 100%;
+                  max-width: 100%;
+                  height: 10%;
+                  padding-bottom: 2%;
+                  background-color: #e0e5ec;
+                  border: 1px solid #333;
+                  border-radius: 0px;
+                  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                }
+
+                @media only screen and (min-width: 768px) {
+                  .box {
+                    width: 95%;
+                    max-width: none;
+                    height: 100%;
+                    padding-bottom: 0;
+                  }
+                }
+
+
+               .nav {
+
+                width: 90%;
+
+                background-color: #eee;
+
+                font-size: 1.1em;
+
+                color: white;
+
+                display:flex;
+
+                text-align: center;
+
+                display: flex;
+
+                flex-direction: row;
+
+                place-items: center;
+
+                margin-left:auto;
+
+                margin-right:auto;
+
+              }
+
+
+            .btn{
+               color: white;
+
+                background: linear-gradient(0deg, rgba(55,15,0,1) 0%, rgba(155,255,2,1) 100%);
+
+                height: 80%;
+
+                width: 50%;
+
+                padding: 2px;
+
+                text-align:center;
+
+                border: 2px solid white;
+
+                text-decoration: none;
+            }
+
+            .btn:hover{
+               color: black;
+
+                background-color: #eee;
+
+                border-radius: 10%;
+
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+                width: 50%;
+
+                padding: 2px;
+
+                text-align:center;
+
+                border: 2px solid black;
+
+                text-decoration: none;
+            }
+
+
+            button {
+                  margin: 20px;
+                }
+                .custom-btn {
+                  width: 130px;
+                  height: 40px;
+                  color: #fff;
+                  border-radius: 5px;
+                  padding: 0px 0px;
+                  font-family: 'Lato', sans-serif;
+                  font-weight: 500;
+                  background: transparent;
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  position: relative;
+                  display: inline-block;
+                   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+                   7px 7px 20px 0px rgba(0,0,0,.1),
+                   4px 4px 5px 0px rgba(0,0,0,.1);
+                  outline: none;
+                }
+
+                /* 3 */
+                    .btn-3 {
+                      background: rgb(0,172,238);
+                    background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+                      width: 130px;
+                      height: 40px;
+                      line-height: 42px;
+                      padding: 0;
+                      border: none;
+
+                    }
+                    .btn-3 span {
+                      position: relative;
+                      display: block;
+                      width: 100%;
+                      height: 100%;
+                    }
+                    .btn-3:before,
+                    .btn-3:after {
+                      position: absolute;
+                      content: "";
+                      right: 0;
+                      top: 0;
+                       background: rgba(2,126,251,1);
+                      transition: all 0.3s ease;
+                    }
+                    .btn-3:before {
+                      height: 0%;
+                      width: 2px;
+                    }
+                    .btn-3:after {
+                      width: 0%;
+                      height: 2px;
+                    }
+                    .btn-3:hover{
+                       background: transparent;
+                      box-shadow: none;
+                    }
+                    .btn-3:hover:before {
+                      height: 100%;
+                    }
+                    .btn-3:hover:after {
+                      width: 100%;
+                    }
+                    .btn-3 span:hover{
+                       color: rgba(2,126,251,1);
+                    }
+                    .btn-3 span:before,
+                    .btn-3 span:after {
+                      position: absolute;
+                      content: "";
+                      left: 0;
+                      bottom: 0;
+                       background: rgba(2,126,251,1);
+                      transition: all 0.3s ease;
+                    }
+                    .btn-3 span:before {
+                      width: 2px;
+                      height: 0%;
+                    }
+                    .btn-3 span:after {
+                      width: 0%;
+                      height: 2px;
+                    }
+                    .btn-3 span:hover:before {
+                      height: 100%;
+                    }
+                    .btn-3 span:hover:after {
+                      width: 100%;
+                    }
+
+
+            /* 7 */
+                .btn-7 {
+                background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+                  line-height: 42px;
+                  padding: 0;
+                  border: none;
+                }
+                .btn-7 span {
+                  position: relative;
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                }
+                .btn-7:before,
+                .btn-7:after {
+                  position: absolute;
+                  content: "";
+                  right: 0;
+                  bottom: 0;
+                  background: rgba(251,75,2,1);
+                  box-shadow:
+                   -7px -7px 20px 0px rgba(255,255,255,.9),
+                   -4px -4px 5px 0px rgba(255,255,255,.9),
+                   7px 7px 20px 0px rgba(0,0,0,.2),
+                   4px 4px 5px 0px rgba(0,0,0,.3);
+                  transition: all 0.3s ease;
+                }
+                .btn-7:before{
+                   height: 0%;
+                   width: 2px;
+                }
+                .btn-7:after {
+                  width: 0%;
+                  height: 2px;
+                }
+                .btn-7:hover{
+                  color: rgba(251,75,2,1);
+                  background: transparent;
+                }
+                .btn-7:hover:before {
+                  height: 100%;
+                }
+                .btn-7:hover:after {
+                  width: 100%;
+                }
+                .btn-7 span:before,
+                .btn-7 span:after {
+                  position: absolute;
+                  content: "";
+                  left: 0;
+                  top: 0;
+                  background: rgba(251,75,2,1);
+                  box-shadow:
+                   -7px -7px 20px 0px rgba(255,255,255,.9),
+                   -4px -4px 5px 0px rgba(255,255,255,.9),
+                   7px 7px 20px 0px rgba(0,0,0,.2),
+                   4px 4px 5px 0px rgba(0,0,0,.3);
+                  transition: all 0.3s ease;
+                }
+                .btn-7 span:before {
+                  width: 2px;
+                  height: 0%;
+                }
+                .btn-7 span:after {
+                  height: 2px;
+                  width: 0%;
+                }
+                .btn-7 span:hover:before {
+                  height: 100%;
+                }
+                .btn-7 span:hover:after {
+                  width: 100%;
+                }
+
+            .results {
+                 border: green 1px solid;
+                 background-color: aliceblue;
+                 text-align: left;
+                 padding-left: 20px;
+                 height: 150px;
+                 width: 95%;
+            }
+
+
+
+            h3 {
+                font-size: 5em;
+                font-family: serif;
+                color: transparent;
+                text-align: center;
+                animation: effect 2s linear infinite;
+            }
+
+             @keyframes effect {
+                0% {
+                    background: linear-gradient(#1a73e8, rgb(34,34,34));
+                    -webkit-background-clip: text;
+                }
+
+                100% {
+                    background: linear-gradient(rgb(34,34,34), #c2d4dd);
+                    -webkit-background-clip: text;
+                }
+            }
+
+            table ,tr ,td{
+                border-collapse : collapse;
+            }
+
+            table.center {
+                 margin-left: auto;
+                 margin-right: auto;
+            }
+            .navbg{
+                background-color:#eee;
+            }
+
+      </style>
+
+      <meta name="google-site-verification" content="3h6BQDHeAZWizGBwyXx7rukj-qR3egh57Jifv_J47fg" />
+
+    </head>
+    <div class="container">
+        <div class="box">
+
+        <body background="http://drive.google.com/uc?export=view&id=1Ip54hIn2smjpzGqRyA_DfsamNJC6405E">
+
+        <!--<hr size="20" color=#88b816 />-->
+
+        <!--<img src="http://drive.google.com/uc?export=view&id=1d5ZLoGJieHEfA5Bka95dzzfj_xnxZeWX" height="" width="100%" /> -->
+        <hr size=15 color="darkblue" style="margin:0;padding:0;border-radius:20px"/>
+        <!--<img src="https://drive.google.com/uc?id=1LkNb06CSzdkoseDUuBf8aImdRi2bL28F" width="100%" height="110px"> </img>--->
+        <img src="https://jkcc.ac.in/images/logo3110.jpg" width="100%" height="135px" style="float:left" />
+
+        <hr size=15 color="darkblue" style="margin:0;padding:0;border-radius:20px"/>
+        <br>
+
+        <div class="navbg">
+        <div class="nav">
+
+                <a href="https://jkcaiml.pythonanywhere.com" class="btn">Home</a>
+
+                <a href="{{ url_for('about') }}" class="btn">About</a>
+
+                <a href="{{ url_for('jupyter') }}" class="btn">Jupyter</a>
+
+                <a href="{{ url_for('projects') }}" class="btn">Projects</a>
+
+            </div>
+
+            </div>
+            <br>
+
+            <h4 style=" font-size:1rem;font-family: serif;color: transparent;text-align: center;animation: effect 2s linear infinite;background: linear-gradient(#008000, #00FF00);-webkit-background-clip: text;background: linear-gradient(#3CE7D7, #000FFF);-webkit-background-clip: text;padding-top:5px;">
+                    WELCOME TO JKC AI&ML INTERNSHIP PORTAL 2023
+                    </h4><br/>
+
+            <div class="tablebox" style="font-size:small">
+                <div style="width: 100%;height: 5%;background: rgb(0,172,238);background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);font-size: small;color: white;text-align:center;border-radius: 12px;">
+                 What's New
+                </div>
+                <br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="http://jkcc.ac.in">JKC Official</a><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="http://jkccexams.in/Students/login.aspx">College Results</a><img src="https://jkcc.ac.in/new.gif" height="10px" /><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="{{ url_for('projects') }}">Assignments</a><img src="https://jkcc.ac.in/new.gif" height="10px" /><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="https://www.python.org/blogs/">Python News</a><img src="https://jkcc.ac.in/new.gif" height="10px" /><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="https://www.youtube.com/watch?v=0g-XL0WV2xo">Machine Learning Core full course</a><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="https://vijay-v63.github.io/regression-aiml/">Regression-AIML</a><img src="https://jkcc.ac.in/new.gif" height="10px" /><br/><br/>
+                <ion-icon name="caret-forward-sharp"></ion-icon><a href="https://vijay-v63.github.io/classification-aiml/">Classification-AIML</a><img src="https://jkcc.ac.in/new.gif" height="10px" /><br/><br/>
+              </div>
+
+
+              <div class="box2" style="margin-top:15px;">
+                  <div style="width: 100%;height: 5%;background-color: #89d8d3;background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);;font-size: small;color: white;text-align:center;border-radius: 0px;margin-bottom:10px">
+                 Reports
+                </div>
+                    <p style="padding-left:20px;padding-right:20px;text-align:center;">
+                    <a href="https://drive.google.com/file/d/1fMwfyddqq6vpJ93KBDcLmvjfUQAw_ouL/view?usp=sharing"><img src="https://drive.google.com/thumbnail?id=1fMwfyddqq6vpJ93KBDcLmvjfUQAw_ouL" height="130" width="180" style="border-radius:5%; border:3px solid white" /></a><br/>
+                    &nbsp;<button class="custom-btn btn-7" style="" onclick="window.location.href='https://drive.google.com/file/d/1fMwfyddqq6vpJ93KBDcLmvjfUQAw_ouL/view?usp=sharing';">download</button>
+                    </p>
+              </div>
+
+                        <div style="width: 100%;height: 5%;background: rgba(251,75,2,1);font-size: small;color: white;text-align:center;border-radius: 0px;margin-top:10px;margin-bottom:10px">
+                             Try our online Python Editor</div>
+                        <iframe src="https://trinket.io/embed/python/06cede02dc?start=result&showInstructions=true" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+                        <!--<div style="width: 100%;height: 5%;background: rgba(251,75,2,1);font-size: small;color: white;text-align:center;border-radius: 0px;margin-top:10px; margin-bottom:10px"> -->
+                            <!-- Try our online Jupyter Notebook </div> -->
+                         <!--<iframe frameborder="0" width="100%" height="500px" src="https://cocalc.com/share/public_paths/ee61c436decfa85fc438f933d5eed31dbbc030cc?embed=true" style="margin-bottom:10px"></iframe> -->
+                         <!--<iframe frameborder="0" width="100%" height="500px" src="https://jupyter.org/try-jupyter/lab/?path=notebooks%2FIntro.ipynb" margin-bottom:10px></iframe> -->
+                         <!--<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@soloboyraju99/Python-Data-Science?embed=true" margin-bottom:10px></iframe>-->
+                         <!--<iframe src="https://anaconda.cloud/api/nbserve/launch_notebook?nb_url=https%3A%2F%2Fanaconda.cloud%2Fapi%2Fprojects%2Fdb6e3a2e-2191-4b94-aa9c-09557820ed44%2Fversions%2F2874798e-0593-4a08-a6c9-d7ad0f511505%2Ffiles%2Ffirstnotebook.ipynb"></iframe> -->
+
+             <div style="width: 100%;height: 10%;background-color: aliceblue;color: spider;font-size: small;diplay:flex;justify-content: space-around;place-items: center;"><br/>
+                    <p style="color:red;font-size:10;padding-left:20px;"><b>Don't have laptop to practice Python?</b></p><br/>
+                    <p style="font-size: small;padding-left:20px;padding-right:10px;">
+                    Don't worry.We have solution for you.<br/>
+                    There is an app in Google Play Store called Pydroid, Which is an educational tool developed by IIEC.This free app works as an integrated development environment for Python.Pydroid 3 is a minimalist Python 3 interpreter.
+                    This app requires a pydroid repository plugin app(available in google playstore) for installing libraries like numpy,pandas,matplotlib and etc....,   and also IDE'S like Jupyter,Spider and etc....,
+                    It allows users to execute minor projects. It also enables you to do minimal coding on your Android device.<br/>
+                    <ion-icon name="logo-android" style="color: #A4c639; font-size:24px"></ion-icon>
+                    Here are the playstore links to the Apps<ion-icon name="cloud-download-sharp" style="color:red; font-size:20px"></ion-icon><br/>
+                    &nbsp;for pydroid<button class="custom-btn btn-7" style="width:70px;height:40px" onclick="window.location.href='https://play.google.com/store/apps/details?id=ru.iiec.pydroid3';">click here</button><br/>
+                    &nbsp;pydroid repository plugin<button class="custom-btn btn-7" style="width:70px;height:40px" onclick="window.location.href='https://play.google.com/store/apps/details?id=ru.iiec.pydroid3.quickinstallrepo';">click here</button>
+                    </p>
+
+                    <img src="https://drive.google.com/thumbnail?id=1WiMEEfBm0InBT_5_CyGNG_Z-7HI3RYyz" height="150px" width="70px" style="border-radius:3%;padding-left:20px;"></img>
+                    <img src="https://drive.google.com/thumbnail?id=1jmi26M_z3Jz2whdAQbct6n9dErx5hoQ8" height="150px" width="70px" style="border-radius:3%"></img>
+                    <img src="https://drive.google.com/thumbnail?id=1M8MkTZqY9pfw_YXzCVERYbtzHGYVRWwH" height="150px" width="70px" style="border-radius:3%"></img>
+                    <img src="https://drive.google.com/thumbnail?id=1B-XTNdprVHQeJibsNev50S5ay2GKJH8B" height="150px" width="70px" style="border-radius:3%"></img>
+            </div>
+            <div style="width:100%;margin-top:20px;margin-bottom:20px"><iframe width="100%" height="480px" src="https://forms.microsoft.com/r/MT5nNc97Bv?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+            </div>
+
+            <center>
+          <div style="width: 100%;height: 5%;background-color: darkblue;font-size: small;color: white;text-align:center;">
+            <p><h4>REACH   COLLEGE<br/></h4></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.000425264564!2d80.41344147431727!3d16.32292253259801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a358a86a8206d81%3A0x4372425982573de2!2sJKC%20College!5e0!3m2!1sen!2sin!4v1685909927366!5m2!1sen!2sin" width="250px" height="210px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <!--<img src="https://res.cloudinary.com/dhxtw97su/image/upload/f_auto,q_auto/v1/samples/jkc-college/hdsq8ionhic4h9enmwhe" height="210px" width="250px" />-->
+            <img src="https://res.cloudinary.com/dhxtw97su/image/upload/f_auto,q_auto/v1/samples/jkc-college/kqca4iv1atrvz6ncdsod" height="210px" width="250px" />
+            <!--<img src="https://res.cloudinary.com/dhxtw97su/image/upload/f_auto,q_auto/v1/samples/jkc-college/lj22nfus1n55by635it9" height="210px" width="250px" />-->
+            <img src="https://res.cloudinary.com/dhxtw97su/image/upload/f_auto,q_auto/v1/samples/jkc-college/lezxy2zbcbn7xdwcvsos" height="210px" width="250px" />
+            <img src="https://res.cloudinary.com/dhxtw97su/image/upload/f_auto,q_auto/v1/samples/jkc-college/jgt0xwwdqerg2natayx6" height="210px" width="250px" />
+
+
+            <!--<img src="http://drive.google.com/uc?export=view&id=1ILWNPwr5a3BcpIiLEhaiOB9K6J6b3H0u" height="210px" width="250px" />--><br/>
+                <div style="background-color:aliceblue">
+                </div>
+            <p><br/>Contact @ : JKC Nagar, Choudaripet(P.O), Guntur - 522 006 ., Andhra Pradesh, India, <br>Email: jkccoff@gmail.com, Phone No: +91 863 2351062, +91 863 2230368</p>
+           </div>
+             <div style="width: 100%;height: 10%;background-color: #080937;font-size: small;color: white;display: flex;flex-direction: row;justify-content: space-around;place-items: center;">
+         <p><center> © Copyright: All Rights Reserved By JKC College</center></p>
+         </div>
+         </div>
+
+         </center>
+           <hr size="10" color="darkblue"></hr>
+
+           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+            <script src="https://clever-chat.ai/chatbot/1.0.0/index.js"></script>
+<clever-chatbot version=1.0.0 chatbotId="aa786f45def"></clever-chatbot>
+        </body>
+        </div>
+        </div>
+        </html>
